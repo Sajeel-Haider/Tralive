@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tralive</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- BOOTSTRAP 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- ION ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- CSS FILES -->
+    <link href="style.css" rel="stylesheet" />
+    <link href="general.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--**********************************************************************************************************-->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md edit-nav">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand" href=""><img src="img/logo1.png" alt="" /></a>
+        <button
+          title="nav"
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span>Menu</span>
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+            <button><ion-icon name="call"></ion-icon> +10 (67) 678 2567</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--**********************************************************************************************************-->
+    <!--- HEADER -->
+    <section class="header">
+      <div class="header-top d-flex justify-content-center">
+        <h1>Lifelong memories just a</h1>
+        <h1 class="top-highlight">few seconds away</h1>
+
+        <p>Let's start your journey with us, your dream will come true</p>
+        <button class="btn">Explore Destinations</button>
+      </div>
+      <div class="header-img d-flex justify-content-center">
+        <img src="img/car.png" alt="" />
+      </div>
+    </section>
+    <!--**********************************************************************************************************-->
+    <!--- UPCOMING EVENTS -->
+    <section class="upcoming-events">
+      <div class="upcoming-top d-flex justify-content-center">
+        <p>Check Our Best Promotional Tour</p>
+        <h1>Upcoming Events</h1>
+      </div>
+      <!--**********************************************************************************************************-->
+      <!-- CROUSAL -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide ue-slider"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card">
+              <div class="img-container">
+                <img src="img/service2.png" alt="..." />
+              </div>
+              <div class="card-body ue-cards">
+                <div class="d-flex justify-content-between">
+                  <h5 class="back-color-db fw-bolder">Mega Turkey</h5>
+                  <h6 class="back-color-lb">$1200</h6>
+                </div>
+                <div class="d-flex align-items-baseline">
+                  <p class="card-text back-color-lb ue-date">12 Jan - 18 Jan</p>
+                  <p class="card-text back-color-db">5 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-container">
+                <img src="img/service3.png" alt="..." />
+              </div>
+              <div class="card-body ue-cards">
+                <div class="d-flex justify-content-between">
+                  <h5 class="back-color-db fw-bolder">Spitzberg</h5>
+                  <h6 class="back-color-lb">$1200</h6>
+                </div>
+                <div class="d-flex align-items-baseline">
+                  <p class="card-text back-color-lb ue-date">12 Jan - 18 Jan</p>
+                  <p class="card-text back-color-db">5 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-container">
+                <img src="img/service1.png" alt="..." />
+              </div>
+              <div class="card-body ue-cards">
+                <div class="d-flex justify-content-between">
+                  <h5 class="back-color-db fw-bolder">Mega Turkey</h5>
+                  <h6 class="back-color-lb">$1200</h6>
+                </div>
+                <div class="d-flex align-items-baseline">
+                  <p class="card-text back-color-lb ue-date">12 Jan - 18 Jan</p>
+                  <p class="card-text back-color-db">5 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!--**********************************************************************************************************-->
+    <!--- ABOUT US -->
+    <section>
+      <div class="about-container">
+        <div><img src="./img/about.png" alt="" /></div>
+        <div class="about-content">
+          <p class="back-color-lb">About Us</p>
+          <h1 class="fw-bolder back-color-db">
+            Get ready for real time adventure
+          </h1>
+          <p>
+            Let's start your journey with us, your dream will come true. Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam quis nostrud exercitation.
+          </p>
+          <button>Book Your Destination</button>
+        </div>
+      </div>
+    </section>
+    <!--**********************************************************************************************************-->
+    <!--- WHAT CUSTOMER SAY -->
+    <section class="cust-say-sec">
+      <div class="cust-say-container">
+        <div class="d-flex flex-column justify-content-center cust-say-info">
+          <h1>What customers say</h1>
+          <p>
+            "Let's start •your journey with us, your dream will come true. Lorem
+            ipsum dolor sitamet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img src="./img/founder.png" alt="" />
+          <div class="d-flex flex-column cust-say-ceo">
+            <h6>Mark Anthony</h6>
+            <p>CEO of colorlib</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--**********************************************************************************************************-->
+    <!--- VIDEO -->
+    <section>
+      <div class="video-wrapper embed-responsive">
+        <video
+          controls
+          poster="./img/video-bg.png"
+          class="d-flex justify-content-center vid-container"
+        >
+          <source
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20200409094356/Placement100-_-GeeksforGeeks2.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <div class="overlay"><p>Watch Our Last Tour</p></div>
+        <div class="overlay-play">
+          <ion-icon name="play-outline"></ion-icon>
+        </div>
+      </div>
+    </section>
+    <!--**********************************************************************************************************-->
+    <!--- SECTION INSTA -->
+    <section class="insta-images">
+      <div class="insta-images-container">
+        <img src="./img/insta1.png" class="d-block w-100" alt="..." />
+        <img src="./img/insta2.png" class="d-block w-100" alt="..." />
+        <img src="./img/insta3.png" class="d-block w-100" alt="..." />
+        <img src="./img/insta4.png" class="d-block w-100" alt="..." />
+        <img src="./img/insta5.png" class="d-block w-100" alt="..." />
+      </div>
+    </section>
+    <!--**********************************************************************************************************-->
+    <!--- FOOTER -->
+    <footer>
+      <div class="d-flex footer-contents">
+        <div>
+          <img src="./img/logo-white.png" alt="" />
+          <p>
+            Land behold it created good saw after she'd Our set living, Signs
+            midst dominion creepeth morning laboris nisi ufsit aliquip.
+          </p>
+          <div>
+            <ion-icon name="logo-facebook" class="icon-1"></ion-icon>
+            <ion-icon name="logo-linkedin" class="icon-1"></ion-icon>
+            <ion-icon name="logo-twitter" class="icon-1"></ion-icon>
+            <ion-icon name="logo-pinterest" class="icon-1"></ion-icon>
+          </div>
+        </div>
+        <div>
+          <ul>
+            <li class="fw-bolder">Navigation</li>
+            <p>Home</p>
+            <p>About</p>
+            <p>Services</p>
+            <p>Blog</p>
+            <p>Contact</p>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="fw-bolder">Services</li>
+            <p>Blackforest</p>
+            <p>Bodhubon</p>
+            <p>Rongdhonu</p>
+            <p>Meghrong</p>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="fw-bolder">Contact</li>
+            <p>76/A, Green Lane, Dhanmondi, NYC demomat189@gmailwcom</p>
+            <li class="f-contact">+10 (78) 738-9083</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-closing">
+        Copyright 02021 All rights reserved I This template is made with
+        &#128153; by
+        <p class="ml-1">Colorlib</p>
+      </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

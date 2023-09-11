@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+:root {
+  --primary-back-color: white;
+  --primary-font-color: rgb(47, 47, 106);
+  --secondary-font-color: rgb(30, 107, 240);
+  --yellow-btn-color: rgb(237, 182, 31);
+}
+* {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+button {
+  border-radius: 5px;
+  color: var(--primary-back-color);
+  border: none;
+}
+nav {
+  font-weight: 700;
+}
+.back-color-db {
+  color: var(--primary-font-color);
+}
+.back-color-lb {
+  color: var(--secondary-font-color);
+}
+section {
+  margin-bottom: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+footer {
+  margin: 0;
+  color: white;
+  background-color: var(--primary-font-color);
+}
+ul {
+  list-style-type: none;
+}
